@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alegreya', serif;;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clrfix{
+    clear: both;
+}
+/* header */
+.header{
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.header-content{
+    margin-top: 25%;
+    color: #fff;
+}
+.header-content p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 25px 0px;
+}
+.header-content h1 {
+    font-size: 76px;
+    font-weight: 400;
+}
+.btns button {
+    padding: 20px 28px;
+    border-radius: 7px;
+}
+.btns button a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btns .btn-grown {
+    background-color: #8E7754;
+    border: none;
+    margin-right: 5px;
+}
+.btns .btn-transparent {
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+/* nav-bar */
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+.links{
+    float: right;
+}
+.links ul li {
+    float: left;
+    padding: 25px 20px;
+}
+.links a {
+    color: #fff;
+    font-size: 20px;
+}
+.nav-bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-top: 15px;
+}
+
+/* Who-we-are */
+.Who-we-are{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.who-we-are-img , .who-we-are-content{
+    width: 50%;
+}
+.who-we-are-img img {
+    width: 100%;
+    padding: 25px;
+}
+.who-we-are-img {
+    float: left;
+}
+.who-we-are-content {
+    float: right;
+    padding: 25px;
+}
+.who-we-are-content h2 {
+    margin: 25px 0px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.who-we-are-content p {
+    margin: 20px 0px;
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.who-we-are-content li {
+    margin: 25px 0px;
+}
+.who-we-are-content span {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(104,104, 104);
+    margin-left: 10px;
+}
+.who-we-are-content i {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #8e7754;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    line-height: 44px;
+    font-size: 20px;
+    text-align: center;
+}
+/* our-location */
+.Our-location {
+    background-color: #F8F8F8;
+    margin: 50px 0px;
+}
+.our-location-content {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.our-location-img {
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+.our-location-img img {
+    width: 100%;
+}
+.our-location-content h2{
+    margin: 20px 0px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.our-location-content p {
+    margin: 20px 0px;
+    line-height: 35px;
+    color: RGB(104, 104, 104);
+}
+/* our-baking */
+.our-baking {
+    text-align: center;
+}
+.our-baking h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.our-baking p {
+    font-size: 17px;
+    font-weight: 400;
+    color: RGB(104, 104, 104);
+    margin-bottom: 40px;
+}
+.item {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+.item h4{
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.item p {
+    font-size: 17px;
+    line-height: 31px;
+    padding: 5px 15px;
+}
+.item img {
+    width: 100%;
+}
