@@ -200,3 +200,63 @@ li{
 .item img {
     width: 100%;
 }
+/* contact us */
+.contact{
+    background-color: #403d38;
+}
+
+.contact-us-content .item{
+    width: 25%;
+
+}
+.contact-us-content .item h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-us-content .item {
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(104,104, 104);
+    font-weight: 400;
+}
+.contact-us-content .item li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin:10px 0px ;
+}
+.fa-arrow-right{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.four span a {
+    color: rgb(104,104, 104);
+}
+.footer {
+    background-color: #8E7754;
+    text-align: center;
+    padding: 35px  0px;
+}
+.footer img {
+    padding: 15px 0px;
+    margin: 15px 0px;
+}
+.footer p {
+    margin: 10px 0px;
+}
+.fa-facebook{
+    font-size: 35px;
+    margin: 15px 5px;
+}
+.fa-twitter{
+    font-size: 35px;
+    margin: 15px 5px;
+}
+.fa-linkedin{
+    font-size: 35px;
+    margin: 15px 5px;
+}
+.fa-instagram{
+    font-size: 35px;
+    margin: 15px 5px;
+}
